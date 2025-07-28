@@ -1,8 +1,34 @@
 import React from 'react'
+import HeaderList from './components/HeaderList'
+import HeaderListItem from './components/HeaderListItem'
+import Logo from '../Logo'
+import baner from '../../../public/LogoFavicon/Logo.png'
+import HeaderLinks from './components/HeaderLinks'
+import HeaderActions from './components/HeaderActions'
 
 const Header = () => {
   return (
-    <div>index</div>
+    <header>
+      <HeaderList>
+
+        <HeaderListItem>
+          <Logo src={baner}/>
+        </HeaderListItem>
+
+        <HeaderListItem>
+          <HeaderLinks/>
+        </HeaderListItem>
+
+        <HeaderListItem>
+          <HeaderListItem/>
+        </HeaderListItem>
+
+        <HeaderListItem>
+          <HeaderActions/>
+        </HeaderListItem>
+        
+      </HeaderList>
+    </header>
   )
 }
 
