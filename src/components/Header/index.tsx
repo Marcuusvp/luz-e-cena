@@ -5,6 +5,7 @@ import Logo from '../Logo'
 import baner from '../../../public/LogoFavicon/Logo.png'
 import HeaderLinks from './components/HeaderLinks'
 import HeaderActions from './components/HeaderActions'
+import HeaderFormFilters from './components/HeaderFormFilters'
 
 const Header = () => {
   return (
@@ -20,7 +21,7 @@ const Header = () => {
         </HeaderListItem>
 
         <HeaderListItem>
-          <HeaderListItem/>
+          <HeaderFormFilters/>
         </HeaderListItem>
 
         <HeaderListItem>
