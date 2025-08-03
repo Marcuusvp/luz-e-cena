@@ -1,5 +1,6 @@
 Revisando conceitos de React com TypeScript
 Criando o projeto -> npm create vite@latest luz-e-cena -- --template react-ts
+npm run server -> Roda o json server
 
 
 
